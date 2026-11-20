@@ -34,7 +34,8 @@
       <li>You need a MeshCore radio running <strong>Companion (Bluetooth)</strong> firmware, such as a Heltec, RAK WisBlock, LilyGo T-Echo or Seeed T1000-E. Install or update it with the MeshCore web flasher at flasher.meshcore.co.uk.</li>
       <li>Open Beacon, pick your radio under <em>Nearby MeshCore radios</em>, and enter its PIN when iOS asks. Radios with a screen show the PIN; otherwise it's often 123456.</li>
       <li>In <em>Menu → Radio admin → Radio</em>, choose your region's preset. Everyone in your group must use the same one.</li>
-      <li>In <em>Menu → Radio admin → Channels</em>, add a private channel, tap <em>Generate</em>, and share the name and secret with your group.</li>
+      <li>Set up your group. One person taps <em>Create a new group</em> and shows the QR code (later: <em>Menu → Invite to group</em>). Everyone else taps <em>Join with a QR code</em> and scans it, or types the group name and key.</li>
+      <li>Public is not a group: anyone nearby can read it, so Beacon never shares your location or status there. It stays in your Chats list as a fallback if you can't reach your group.</li>
       <li>No radio yet? Tap <em>Try the demo</em> on the first screen.</li>
     </ul>
 
@@ -42,9 +43,9 @@
     <div class="card">
       <p><strong>My radio isn't listed.</strong><br>Make sure it's on, nearby and not connected to another phone or the official MeshCore app. A radio talks to one phone at a time.</p>
       <p><strong>Pairing failed or the PIN is wrong.</strong><br>In iOS Settings → Bluetooth, tap ⓘ next to the radio, choose <em>Forget This Device</em>, then connect again in Beacon.</p>
-      <p><strong>I can't see the other members.</strong><br>Check that everyone uses the same radio preset and the same channel name and secret.</p>
+      <p><strong>I can't see the other members.</strong><br>Check that everyone uses the same radio preset and the same group name and key. Show them <em>Menu → Invite to group</em> and have them scan it.</p>
       <p><strong>Does the map work offline?</strong><br>Yes. Download your area in Apple Maps → your profile picture → Offline Maps before you lose signal.</p>
-      <p style="margin-bottom:0"><strong>Who can see my location?</strong><br>Only people on the private channel you choose. Beacon never shares location or status on the Public channel and has no servers. See the <a href="privacy.html">Privacy Policy</a>.</p>
+      <p style="margin-bottom:0"><strong>Who can see my location?</strong><br>Only people in the private group you choose. Beacon never shares location or status on the Public channel and has no servers. See the <a href="privacy.html">Privacy Policy</a>.</p>
     </div>
   </main>
   <footer>© 2026 Joseph Le · Beacon is an independent app and is not affiliated with the MeshCore project.</footer>
